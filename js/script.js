@@ -41,7 +41,7 @@ $('#submit').on('click', function(e) {
   if(unchk == 0) {
     $('#form1').submit();
   } else {
-    // 아닐경우 from이 제출되지 못하게 막기
+    // 아닐경우 form이 제출되지 못하게 막기
     e.preventDefault();
     // #red-alert가 보이게
     $('#red-alert').css('visibility', 'visible');
